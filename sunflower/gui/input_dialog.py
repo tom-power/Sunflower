@@ -9,7 +9,7 @@ from gi.repository import Gtk
 from sunflower.plugin_base.provider import FileType, Support as ProviderSupport
 from sunflower.common import get_user_directory, decode_file_name, UserDirectory
 from sunflower.widgets.completion_entry import PathCompletionEntry
-from sunflower.queue import OperationQueue
+from sunflower.operation_queue import OperationQueue
 
 
 # constants

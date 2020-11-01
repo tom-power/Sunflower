@@ -13,7 +13,7 @@ from sunflower.gui.error_list import ErrorList
 from sunflower.plugin_base.provider import Mode as FileMode, TrashError, Support as ProviderSupport
 from sunflower.plugin_base.monitor import MonitorSignals
 from sunflower.common import format_size
-from sunflower.queue import OperationQueue
+from sunflower.operation_queue import OperationQueue
 from sunflower.gui.input_dialog import OverwriteOption
 
 
