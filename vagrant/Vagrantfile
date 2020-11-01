@@ -1,0 +1,14 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "debian/buster64"
+  config.vm.define "sunflower"
+  config.vm.hostname = "sunflower"
+  config.vm.provider :virtualbox do |vb|
+    vb.name = "sunflower"
+  end
+end
+
+Vagrant.configure("2") do |config|
+  config.ssh.forward_agent = true
+  config.ssh.forward_x11 = true
+  config.vm.provision "shell", path: "sunflower.sh"
+end

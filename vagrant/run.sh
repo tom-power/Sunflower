@@ -1,0 +1,1 @@
+cd /home/vagrant/Sunflower && pip3 install . && PYTHONPATH='.' python3 sunflower
