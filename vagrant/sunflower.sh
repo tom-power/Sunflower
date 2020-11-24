@@ -9,6 +9,7 @@ apt install --no-install-recommends -y \
 apt install --no-install-recommends -y \
 	libgirepository1.0-dev gcc libcairo2-dev pkg-config python3-dev gir1.2-gtk-3.0 \
 	gir1.2-notify-0.7 gir1.2-vte-2.91 libgtk-3-dev \
+	fakeroot \
 	python3-pip
 
 # project
